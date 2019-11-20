@@ -10,6 +10,12 @@ trim_trailing_whitespace = true
 
 [*.{cs,vb}]
 dotnet_code_quality_unused_parameters = all:suggestion
+dotnet_naming_rule.constant_fields_should_be_pascal_case.severity = suggestion
+dotnet_naming_rule.constant_fields_should_be_pascal_case.style = pascal_case_style
+dotnet_naming_rule.constant_fields_should_be_pascal_case.symbols = constant_fields
+dotnet_naming_style.pascal_case_style.capitalization = pascal_case
+dotnet_naming_symbols.constant_fields.applicable_kinds = field
+dotnet_naming_symbols.constant_fields.required_modifiers = const
 dotnet_separate_import_directive_groups = false
 dotnet_sort_system_directives_first = true
 dotnet_style_coalesce_expression = true:suggestion
