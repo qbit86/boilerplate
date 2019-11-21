@@ -8,6 +8,12 @@ insert_final_newline = true
 max_line_length = 120
 trim_trailing_whitespace = true
 
+[*.{csproj,props,resx,shproj,targets,xml}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
+
 [*.{cs,vb}]
 dotnet_code_quality_unused_parameters = non_public:suggestion
 dotnet_naming_rule.constant_fields_should_be_pascal_case.severity = suggestion
