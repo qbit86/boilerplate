@@ -11,6 +11,7 @@
 *.md    text
 *.props text
 *.ps1   text
+*.shproj    text
 *.sln   text
 *.txt   text
 *.yaml  text
