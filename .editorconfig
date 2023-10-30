@@ -23,6 +23,9 @@ generated_code = true
 ij_formatter_enabled = false
 
 [*.{csproj,html,props,resx,shproj,targets,xml}]
+ij_xml_space_inside_empty_tag = true
+
+[*.xaml]
 resharper_space_before_self_closing = true
 
 [*.{cs,vb}]
