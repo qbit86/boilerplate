@@ -11,7 +11,7 @@ trim_trailing_whitespace = true
 [*.{csproj,css,html,http,json,projitems,props,resx,shproj,targets,xml,yaml}]
 indent_size = 2
 
-[*.{sln,csproj.DotSettings,sln.DotSettings}]
+[*.{csproj.DotSettings,sln,sln.DotSettings}]
 indent_style = tab
 
 [*.md]
