@@ -3,3 +3,5 @@
 .vscode/
 *.suo
 *.user
+bin/
+obj/
