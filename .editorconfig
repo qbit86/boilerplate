@@ -141,6 +141,7 @@ resharper_braces_for_for = required_for_multiline
 resharper_braces_for_foreach = required_for_multiline
 resharper_braces_for_ifelse = required_for_multiline
 resharper_braces_for_while = required_for_multiline
+resharper_convert_to_null_coalescing_compound_assignment_highlighting = warning # ConvertToNullCoalescingCompoundAssignment
 resharper_convert_to_primary_constructor_highlighting = none # ConvertToPrimaryConstructor
 resharper_csharp_stick_comment = false
 resharper_empty_block_style = together_same_line
